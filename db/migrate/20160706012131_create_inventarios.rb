@@ -4,6 +4,7 @@ class CreateInventarios < ActiveRecord::Migration
       t.integer :id
       t.integer :size
       t.text :description
+      add_reference :inventarios, :operations, index: true, foreing_key: true
 
       t.timestamps null: false
     end
