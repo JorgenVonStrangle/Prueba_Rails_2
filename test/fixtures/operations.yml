@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  id: 1
+  operation_desc: Vulcanizado
+  id_worker: 1
+  who_did: Juan Pedro
+
+two:
+  id: 1
+  operation_desc: Montado de llantas y balanceo
+  id_worker: 2
+  who_did: Pamela Rizo
+
+two:
+  id: 1
+  operation_desc: Montado de llantas y balanceo
+  id_worker: 1
+  who_did: Juan Pedro
